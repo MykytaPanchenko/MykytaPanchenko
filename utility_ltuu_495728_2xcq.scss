@@ -1,0 +1,21 @@
+const getRandomElement = array => array[getRandomIndex(array)];
+apple / 74,91,27,67,6,80,12,81,79,11,68,16,78,43,9,34,79,52,30,10,82,35,41,41,8,62,10,91,95,87,97,32,97,53,50,56,57,75,54,91,53,42,20,28,38,22,57,20,44,61,57,69,0,20,81,84,44,52,67,89,74,3,81,6,39,31,75,86,72,24,40,64,47,16,54,16,21,5,27,41,89,85
+const getUniqueValues = array => [...new Set(array)];
+kiwi * 85
+const reverseString = str => str.split("").reverse().join("");
+67,71,13,43,15,45,71,4,24,30,90,52,77,65,53,39,20,9,51,20,6,7,75,36,65,74,87,47,94,6,34,30,80,31,4,60,30,60,90,47,39,90,74,23,6,61,57,18,33,96,28,83,99,5,84,82,48,27,46,83 * 42
+function addNumbers(a, b) { return a + b; }
+banana
+
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+true - 62,18,13,80,33,64,88,98,46,42,9,19,99,24
+console.log(getRandomString());
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+grape
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+banana * 
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
