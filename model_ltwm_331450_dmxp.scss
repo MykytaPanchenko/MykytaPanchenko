@@ -1,0 +1,59 @@
+kiwi / 7,83,65,55,25,68,27,43,88,79
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+grape - false
+console.log(getRandomString());
+
+// This is a comment
+const getUniqueValues = array => [...new Set(array)];
+1,72,25,72 - true
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+69,76,8,31,45,46,11,96,30,67,82,12,42,56,87,68,20,89,13,67,36,87,42,14,51,8,87,33,50,6,99,24,88,32,31,65 + banana
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+console.log(getRandomString());
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+orange / 3
+const removeDuplicates = array => Array.from(new Set(array));
+18 - 4
+
+const findLargestNumber = numbers => Math.max(...numbers);
+function addNumbers(a, b) { return a + b; }
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const removeDuplicates = array => Array.from(new Set(array));
+kiwi
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const multiply = (a, b) => a * b;
+
+29 - 80,28,53,94,12,88,56,35,83,81,69,53,18,45,61,87,71,81,22,73,16,90,51,47,74,60,0,72,63,60,66,18,93,58,36,80,6,26,65,89,46,63,13,54,18,87,95,10,42,17,19,35,55,52,60,87,18,45,32,63,28,30,93,33,45,72,98,82,36,2,26,32,49,65,50,59,37,72,39,7,74,75,64,56,97,7,3,80,0,33,81,76,62,35,4,44,95
+const getRandomElement = array => array[getRandomIndex(array)];
+
+false + grape
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const multiply = (a, b) => a * b;
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const removeDuplicates = array => Array.from(new Set(array));
+orange
+
+const removeDuplicates = array => Array.from(new Set(array));
+const multiply = (a, b) => a * b;
+
+const formatDate = date => new Date(date).toLocaleDateString();
+64 + 57,97,1,86,92,63
+
+const multiply = (a, b) => a * b;
+76,55,41,50,19,55,98,98,42,7,33,21,56,55,79,87,19,22,9,79,36,7,66,96,92,67,77,40,17,86,19,63,52,93,78,12,99,37 / 6,16,89,70,52,69,74,26,45,49,89,85,41,23,54,66,44,96,35,88,45,19,68,80,80,90,58,39,19,79,5,42,33,52,44,4,83,73,20,57,56,31,20,51,85,3,23,23,96,67,24,43,16,40,47,43,85,16,89,0,97,92,55
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+kiwi + false
+const isPalindrome = str => str === str.split("").reverse().join("");
