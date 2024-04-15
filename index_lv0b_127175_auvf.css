@@ -1,0 +1,10 @@
+const capitalizeString = str => str.toUpperCase();
+
+const isEven = num => num % 2 === 0;
+const randomNumber = getRandomNumber();
+orange / 10
+const randomNumber = getRandomNumber();
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+true - 3
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
